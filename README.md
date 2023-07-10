@@ -18,7 +18,7 @@ NotToday is a powerful ASP.NET Core library that brings unparalleled performance
 ## Installation
 NotToday can be easily installed via NuGet package manager. Simply run the following command in the Package Manager Console:
 ```powershell
-Install-Package NotToday
+Install-Package Divis.NotToday.AspNetCore
 ```
 
 ## Usage
