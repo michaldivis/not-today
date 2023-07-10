@@ -1,3 +1,5 @@
+<img src="assets/icon.png?raw=true" width=200>
+
 # NotToday
 
 NotToday is a powerful ASP.NET Core library that brings unparalleled performance gains to your API. With its advanced optimizations and efficient implementation, it enables you to deliver lightning-fast responses to your users, ensuring a smooth and responsive experience.
