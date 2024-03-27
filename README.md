@@ -4,16 +4,8 @@
 
 NotToday is a powerful ASP.NET Core library that brings unparalleled performance gains to your API. With its advanced optimizations and efficient implementation, it enables you to deliver lightning-fast responses to your users, ensuring a smooth and responsive experience.
 
-## Features
-**Unmatched Performance**: NotToday is designed from the ground up to maximize performance in ASP.NET Core applications. It leverages cutting-edge techniques and optimizations to minimize latency and improve throughput, allowing your API to handle a high volume of requests without breaking a sweat.
-
-**Efficient Request Processing**: NotToday optimizes the request processing pipeline, reducing unnecessary overhead and improving overall performance. It streamlines the handling of incoming requests, ensuring minimal latency and resource consumption, even under heavy loads.
-
-**Highly Scalable**: Thanks to its efficient design and optimized algorithms, NotToday enables your API to scale effortlessly. It can handle a massive number of concurrent requests, making it ideal for applications that require high scalability and responsiveness.
-
-**Transparent Integration**: NotToday seamlessly integrates with your existing ASP.NET Core application. It provides a simple and intuitive API, allowing you to quickly enhance the performance of your API without extensive code changes or complex configuration.
-
-**Easy to Use**: NotToday is designed with developer productivity in mind. It comes with comprehensive documentation and examples, making it easy to get started and leverage its performance benefits in your project. You can quickly integrate it into your solution and start seeing immediate improvements in response times and overall performance.
+The magic behing the library is that it will **short-circuit your requests in the middleware pipeline** and return a heart-warming response similar to
+> Oh goodie! It seems like there's no response coming. It's just one of those days I guess.
 
 ## Installation
 NotToday can be easily installed via NuGet package manager. Simply run the following command in the Package Manager Console:
@@ -40,7 +32,7 @@ app.UseNotToday(); // <- add this
 app.Run();
 ```
 
-Enjoy the performance gains! NotToday will automatically optimize request processing, resulting in significantly improved response times and overall API performance.
+Enjoy the performance gains! NotToday will automatically optimize request processing, resulting in significantly improved response times and overall API performance. For the price of not returning the desired responses of course.
 
 ## Testimonials
 
